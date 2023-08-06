@@ -1,0 +1,91 @@
+main{
+    width: 100%;
+    
+    .home{
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1rem;
+
+        .categories{
+            text-align: center;
+            margin: 20px;
+
+            button{
+                width: 150px;
+                height: 40px;
+                border: 1px solid #333;
+                border-radius: 3px;
+                margin: 5px;
+                background: #fff;
+                cursor: pointer;
+                transition: 500ms;
+                font-size: 16px;
+                font-weight: 500;
+            
+                &:hover{
+                    background: #024362;
+                    color: #fff;
+                }
+            }
+        }  
+        
+        .cards{
+            margin: 35px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 25px;
+        }
+        
+        .product_card{
+            width: 300px;
+            height: 450px;
+            border-radius: 5px;
+            background: #fff;
+            border: 1px solid #333;
+            cursor: pointer;
+        
+            img{
+                width: 150px;
+                height: 200px;
+                margin: 15px 0 0 65px;
+            }
+        
+            .descr{
+                padding: 30px;
+                text-align: center;
+            }
+        
+            h2{
+                font-size: 16px;
+                font-weight: 400;
+                padding-bottom: 10px;
+                line-height: 25px;
+            }
+        
+            h3{
+                font-size: 18px;
+                font-weight: 500;
+                padding-bottom: 10px;
+            }
+        
+            .buy_now{
+                width: 240px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                background: #024362;
+                font-size: 14px;
+                font-weight: 400;
+                transition: 300ms;
+                color: #fff;
+
+                &:hover{
+                    background: #035a82;
+                }
+            }
+        }
+    }
+    
+}

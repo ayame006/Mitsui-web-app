@@ -1,0 +1,76 @@
+.auth {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .form {
+      width: 500px;
+      padding: 24px;
+
+      h2 {
+        color: #024362;
+        text-align: center;
+      }
+      
+      form {
+        input[type="email"],
+        input[type="password"] {
+          display: block;
+          font-size: 16px;
+          font-weight: 400;
+          padding: 16px;
+          margin: 16px auto;
+          width: 100%;
+          border: 1px solid #777;
+          border-radius: 3px;
+          outline: none;
+        }
+        
+        .btn_auth{
+            width: 100%;
+            padding: 16px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 3px;
+            background: #024362;
+            color: #fff;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        .links a{
+            color: #707070;
+
+            &:hover{
+                border-bottom: 1px solid #707070;
+            }
+        }
+  
+        p {
+          text-align: center;
+          margin: 16px;
+        }
+        
+      }
+      
+      .register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+
+        a:hover{
+            border-bottom: 1px solid #1c1c1c;
+        }
+      }
+    }
+  }
